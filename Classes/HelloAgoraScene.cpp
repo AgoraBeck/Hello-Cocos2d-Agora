@@ -45,9 +45,9 @@ public:
         CCLOG("[General C++]:onAudioRouteChanged %d", routing);
     }
 
-    void onRequestChannelKey() override
+    void onRenewToken() override
     {
-        CCLOG("[General C++]:onRequestChannelKey");
+        CCLOG("[General C++]:onRenewToken ");
     }
 };
 
